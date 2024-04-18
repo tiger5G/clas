@@ -6,10 +6,10 @@ external-controller: :9090
 proxies:
   - name: "6666.tw"
     type: http
-    server: 6666.tw.cn
-    port: 28080
+    server: 66.tw.cn
+    port: 2800
     username: user
-    password: BHGbenq123
+    password: benq123
   # tls: true # https
   # skip-cert-verify: true
 proxy-groups:
