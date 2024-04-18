@@ -4,5 +4,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - name: "6666.tw"
+    type: http
+    server: 6666.tw.cn
+    port: 28080
+    username: user
+    password: BHGbenq123
+  # tls: true # https
+  # skip-cert-verify: true
 proxy-groups:
 rules:
